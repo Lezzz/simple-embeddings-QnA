@@ -1,0 +1,46 @@
+[
+  [
+    {
+      "title": "sourceFile.txt-0",
+      "content": "Pentru a obtine permisul de conducere pentru categoria B, orice candidat trebuie sa fi implinit deja 18 ani.\t \r \r Examenul teoretic consta in rezolvarea pe calculator a unui chestionar ce are 26 de intrebari.\t \r \r Timpul alocat pentru acest examen este de 30 de minute, iar pentru a il promova, orice candidat trebuie sa raspunda corect la 22 de intrebari.",
+      "content_length": 356,
+      "content_tokens": 124
+    },
+    {
+      "title": "sourceFile.txt-1",
+      "content": "Daca va avea mai mult de 4 raspunsuri gresite atunci va pica sala. Veti putea sustine inca o data examenul dupa 15 zile calendaristice (sunt incluse si zilele de sambata si duminica), din momentul in care ati picat.\t\r \r Dupa ce ati luat examenul teoretic, va puteti programa de pe ecranul monitorului si pentru proba practica, adica pentru traseu ori va puteti duce la ghiseul pentru programare traseu.",
+      "content_length": 402,
+      "content_tokens": 143
+    },
+    {
+      "title": "sourceFile.txt-2",
+      "content": "Examenul la traseu are o durata de minimum 25 de minute si include urmatoarele: - Efectuarea unor manevre practice de conducere a vehiculului - Aceste manevre se efectueaza in trafic sau in poligon - Examenul poate avea loc in localitate sau in afara acesteia, dar si in diverse conditii de trafic - Se sustine cu examinatori atestati de DRPCIV, dar si cu un martor in masina - Manevre de mers inapoi drept, cu viraj, manevra de intoarcere, de parcare laterala, oblica sau perpendiculara - Manevra de oprire de precizie sau de urgenta - Pornirea de pe loc, de la semafor, iesirea de pe drum lateral, abordarea curbelor - Schimbarea unei benzi de circulatie, traversarea intersectiilor, depasire, intrare sau iesire de pe autostrada sau cai similare Fiecare manevra executata gresit la traseu va fi penalizata, iar la peste 20 de puncte de penalizare, candidatul va fi picat. ",
+      "content_length": 874,
+      "content_tokens": 298
+    },
+    {
+      "title": "sourceFile.txt-4",
+      "content": "Actele necesare pentru obtinerea permisului de conducere sunt: – cerere tip; – fisa de scolarizare care contine datele de stare civila ale candidatului, forma de pregatire teoretica si practica realizata de unitatile autorizate pentru categoriile sau subcategoriile pentru care se solicita examinarea, completata prin dactilografiere si semnata de candidat, pe care se aplica o fotografie color a acestuia in spatiul special destinat; – fisa posesorului permisului de conducere, completata prin dactilografiere si semnata; – copie dupa actul de identitate (carte de identitate, buletin); – cazier judiciar; – certificat medical pentru conducatorii auto; – avizul psihologic; – chitanta care sa dovedeasca plata contravalorii examinarii; – copia permisului de conducere, in cazul persoanelor care solicita obtinerea unei noi categorii (subcategorii); – chitanta care sa dovedeasca plata contravalorii permisului de conducere; – copia hotarârii judecatoresti de condamnare, ramasa definitiva, pentru persoanele care solicita examinarea pentru obtinerea unui nou permis de conducere in locul celui anulat. ",
+      "content_length": 1102,
+      "content_tokens": 364
+    },
+    {
+      "title": "sourceFile.txt-6",
+      "content": "Pentru schimbarea permisului auto existent în caz de expirare este nevoie de efectuarea în prealabil a vizitei medicale la una din unitățile medicale autorizate de Ministerul Sanătății. Acte necesare: cererea de schimbare permis (se completează în format electronic la ghișeu și se semează), actul de identitate în original, dovada plății taxei de 89 lei, permisul de conducere în original, fișa medicală, din care rezultă că titularul este apt din punct de vedere medial să conducă autovehicule din categoria pentru care solicită eliberarea permisului de conducere. ",
+      "content_length": 566,
+      "content_tokens": 214
+    },
+    {
+      "title": "sourceFile.txt-8",
+      "content": "În caz de pierdere, furt, deteriorare sau schimbare a numelui înainte de expirarea valabilității permisului se eliberează un duplicat al acestuia. Acte necesare: cererea (se completează în format electronic la ghișeu și se semează, împreună cu declarația de furt/pierdere, după caz), actul de identitate în original, dovada plății taxei de 89 lei, permisul de conducere în original (dacă se dorește schimbarea în caz de deteriorare). Pentru permisele de conducere emise după data de 01 ianuarie 2009, cererea pentru eliberarea duplicatului (alături de celelalte documente) poate fi transmisă și prin email la adresa de serviciului public comunitar care a emis permisul de conducere anterior. Ridicarea noului permis de conducere se face de către titular de la sediul serviciului public comunitar și este nevoie de originalul documentelor ale căror copii au fost initial pe email. ",
+      "content_length": 879,
+      "content_tokens": 335
+    },
+    {
+      "title": "sourceFile.txt-10",
+      "content": "Pentru preschimbarea permisului auto solicitantul trebuie să depună la sediul serviciului public comunitar următoarele acte: cererea de preschimbare permis, permisul de conducere emis de autozitățile străine și traducerea lui legalizată, actul de identitate în original, dovada plății taxei de 89 lei, fișa medicală, din care rezultă că titularul este apt din punct de vedere medial să conducă autovehicule din categoria pentru care solicită eliberarea permisului de conducere (în caz de permis expirat). Pentru a economisi timp, taxa pentru permisul auto, în valoare de 89 lei, se poate achita online, direct pe site-ul Direcției de regim permise, fără a mai fi nevoie de prezentarea dovezii plății. În ceea ce privește programarea pentru schimbarea permisului, și aceasta se poate face online. Este foarte important să respectați ora programată pentru a evita anularea programării. Mai multe informatii regăsiți pe Direcția Generală Permise de Conducere și Înmatriculări.",
+      "content_length": 973,
+      "content_tokens": 386
+    }
+  ]
+]

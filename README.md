@@ -1,0 +1,1 @@
+# simple embeddings generator and vector similarity search for your own text data
