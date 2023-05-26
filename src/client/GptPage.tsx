@@ -1,29 +1,42 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
+import { useQuery } from '@wasp/queries';
 import { RelatedObject } from '@wasp/entities';
 import generateGptResponse from '@wasp/actions/generateGptResponse';
 import searchEmbeddings from '@wasp/queries/searchEmbeddings';
 
-
 export default function GptPage() {
+  const [command, setCommand] = useState<string>('');
   const [response, setResponse] = useState<string>('');
 
+const { data: contextFromEmbeddings, refetch: refetchEmbeddings } = useQuery(
+  searchEmbeddings,
+  { inputQuery: command, resultNum: 3 },
+  { enabled: false }
+);
 
-  const onSubmit = async ({ command }: any) => {
-    try {
-      const contextFromEmbeddings = await searchEmbeddings({ inputQuery: command, resultNum: 3 });
-      
-      // Construct the instructions
-      const instructions = `Esti un functionar public de la permise auto. Folosind informatiile de mai jos, răspunde la întrebarea: "${command}".\n\nInformatii Aditionale:\n${contextFromEmbeddings}`;
-  
-      const response = (await generateGptResponse({ instructions, command })) as RelatedObject;
-      if (response) {
-        setResponse(response.content);
+  useEffect(() => {
+    const fetchGptResponse = async () => {
+      if (contextFromEmbeddings) {
+        const instructions = `Esti un functionar public de la permise auto. Folosind informatiile de mai jos, răspunde la întrebarea: "${command}".\n\nInformatii Aditionale:\n${contextFromEmbeddings}`;
+        try {
+          const response = (await generateGptResponse({ instructions, command })) as RelatedObject;
+          if (response) {
+            setResponse(response.content);
+          }
+        } catch (e) {
+          alert('Something went wrong. Please try again.');
+          console.error(e);
+        }
       }
-    } catch (e) {
-      alert('Something went wrong. Please try again.');
-      console.error(e);
-    }
+    };
+
+    fetchGptResponse();
+  }, [contextFromEmbeddings, command]);
+
+  const onSubmit = async (formData: any) => {
+    setCommand(formData.command);
+    refetchEmbeddings();
   };
   
 
