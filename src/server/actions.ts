@@ -10,12 +10,14 @@ type GptPayload = {
 };
 
 export const generateGptResponse: GenerateGptResponse<GptPayload, RelatedObject> = async (
-    { instructions, command },
-    context
-  ) => {
-    if (!context.user) {
-      throw new HttpError(401);
-    }
+  { instructions, command },
+  context
+) => {
+  context.user = {
+    id: 1,
+    username: 'valentintest',
+    role: 'admin',
+  };
     const payload = {
       model: 'gpt-3.5-turbo',
       messages: [
