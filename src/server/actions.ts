@@ -13,6 +13,9 @@ export const generateGptResponse: GenerateGptResponse<GptPayload, RelatedObject>
     { instructions, command },
     context
   ) => {
+    if (!context.user) {
+      throw new HttpError(401);
+    }
     const payload = {
       model: 'gpt-3.5-turbo',
       messages: [
